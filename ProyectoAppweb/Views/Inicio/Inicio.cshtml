@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Bienvenido A mi portafolio";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+            margin-bottom: 20px;
+        }
+
+        div {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .contact-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+            .contact-button:hover {
+                background-color: #45a049;
+            }
+    </style>
+</head>
+<body>
+    <h2>@ViewBag.Title</h2>
+    <div>
+        <img src="~/css/imagen/autor.jpeg" />
+        <p>¡Hola! Soy Arturo Zamorano Beltran y este es mi portafolio. Soy un alumno de la UTS. Aquí podrás encontrar una recopilación de algunos de mis proyectos más destacados en los que he trabajado durante mi tiempo en la Universidad. Mi enfoque principal se centra en Aplicaciones Web y Moviles.</p>
+        <p>En este portafolio, encontrarás una colección de proyectos que reflejan mis habilidades en programador. Me apasiona los nuevos desafios y siempre estoy emocionado por enfrentar nuevos desafíos y aprender nuevas tecnologías.</p>
+        <p>¡Gracias por visitar mi portafolio! Si deseas ponerte en contacto conmigo o tienes alguna pregunta, no dudes en enviarme un mensaje a través de la página de contactos.</p>
+      
+    </div>
+</body>
+</html>
